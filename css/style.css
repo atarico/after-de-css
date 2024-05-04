@@ -72,6 +72,24 @@ li {
     transition: all 0.3s;
 }
 
+.menuOculto {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background: #000;
+    padding: 16px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+li:hover .menuOculto {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    transition: all 0.3s;
+}
+
 
 a {
     color: #e0e0e0;
